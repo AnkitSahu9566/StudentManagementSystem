@@ -1,0 +1,86 @@
+<web-app>
+
+    <servlet>
+         	<servlet-name> akki </servlet-name>
+             <servlet-class> ServletDemo</servlet-class>			
+    </servlet> 
+	<servlet>
+         	<servlet-name> akki2 </servlet-name>
+             <servlet-class> ServletDemo2</servlet-class>			
+    </servlet> 
+	<servlet>
+         	<servlet-name> akki3 </servlet-name>
+             <servlet-class> ServletRegis</servlet-class>			
+    </servlet> 
+	<servlet>
+         	<servlet-name> akki4 </servlet-name>
+             <servlet-class> ServletLogin</servlet-class>			
+    </servlet>  
+	<servlet>
+         	<servlet-name> akki5 </servlet-name>
+             <servlet-class> ServletInsert</servlet-class>			
+    </servlet>  
+	<servlet>
+         	<servlet-name> ShowAll </servlet-name>
+             <servlet-class> ServletShowAll</servlet-class>			
+    </servlet>  
+	<servlet>
+         	<servlet-name> akki7 </servlet-name>
+             <servlet-class> ServletDelete</servlet-class>			
+    </servlet>  
+	
+	<servlet>
+         	<servlet-name> akki8 </servlet-name>
+             <servlet-class> ServletSearch</servlet-class>			
+    </servlet> 
+	
+	<servlet>
+         	<servlet-name> akki9 </servlet-name>
+             <servlet-class> ServletUpdate</servlet-class>			
+    </servlet> 
+	
+	<servlet-mapping>
+	     <servlet-name>akki</servlet-name>
+	     <url-pattern> /welcome</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+	     <servlet-name>akki2</servlet-name>
+	     <url-pattern> /loginllll</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+	     <servlet-name>akki3</servlet-name>
+	     <url-pattern> /regis</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+	     <servlet-name>akki4</servlet-name>
+	     <url-pattern> /login</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+	     <servlet-name>akki5</servlet-name>
+	     <url-pattern> /insert</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+	     <servlet-name>ShowAll</servlet-name>
+	     <url-pattern> /ShowAll</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+	     <servlet-name>akki7</servlet-name>
+	     <url-pattern> /delete</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+	     <servlet-name>akki8</servlet-name>
+	     <url-pattern> /search</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+	     <servlet-name>akki9</servlet-name>
+	     <url-pattern> /update</url-pattern>
+	</servlet-mapping>
+</web-app> 

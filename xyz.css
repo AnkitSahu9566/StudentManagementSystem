@@ -1,0 +1,48 @@
+
+body
+{background-image:url('screen1.png'); }
+#mymenu
+{
+background-color:rgba(0,0,0,0.5);
+color:white;
+text-align:right;
+}
+#mymenu ul li
+{
+display:inline-table;
+padding:12px;
+}
+#mymenu ul li:hover
+{
+background-color:black;
+color:green;
+display:inline-table;
+padding:12px;
+}
+#data
+{margin:180px;}
+table
+{
+background-color:rgba(0,0,0,0.5);
+color:white;
+box-shadow:10px 10px 10px black;
+} 
+.B
+{
+  padding:10px;
+  background:linear-gradient(white,white);
+  color:black;
+  border:radius 0px 25px 0px 25px
+}
+.B:hover
+{
+  padding:10px;
+  background:linear-gradient(black,blue);
+  color:white;
+  border:radius 25px 0px 25px 0px
+}
+caption
+{
+background-color:rgba(0,0,0,0.5);
+}
+
